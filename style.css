@@ -67,3 +67,15 @@ h1, h2 {
 	padding: 0.2em;
 
 }
+
+.soundcloud{
+	width: 50%;
+}
+
+@media only screen and (max-device-width: 640px){ 
+	.soundcloud{
+		width: 75%;
+	}
+
+
+}
