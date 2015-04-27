@@ -139,6 +139,9 @@ textarea {
 }
 [type="submit"]:hover { background:#CC4949; }
 
+.contact-header{
+	margin-left: 5%;
+}
 @media only screen and (max-device-width: 640px){ 
 	.soundcloud{
 		width: 75%;
