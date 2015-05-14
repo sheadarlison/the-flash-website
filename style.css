@@ -30,6 +30,7 @@ h1, h2 {
 	display: flex;
 	display: -webkit-flex;
 	margin: auto;
+	width: 100vw;
 	text-align: center;
 }
 
