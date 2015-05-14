@@ -27,7 +27,7 @@ h1, h2 {
 	font-weight: 300;
 	letter-spacing: 1em;
 	text-transform: uppercase;
-	color: #ffffff;
+	color: #000000;
 	text-align: center;
 }
 .mejs-controls {display: none !important;}
@@ -62,7 +62,7 @@ video::-webkit-media-controls-enclosure {
 	display: flex;
 	display: -webkit-flex;
 	height: 100%;
-	background-color: #000000;
+	background-color: #ffffff;
 }
 
 .music{
