@@ -17,6 +17,7 @@ h1, h2 {
 	color: #ffffff;
 	text-align: center;
 }
+.mejs-controls {display: none !important;}
 
 .header {
 	display: flex;
