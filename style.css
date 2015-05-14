@@ -15,6 +15,7 @@ body {
 }
 .nav{
 	justify-content:center;
+	align-items:center;
 	width: 100vw;
 	height: 10vh;
 }
@@ -84,12 +85,19 @@ h1, h2 {
 .soundcloud{
 	width: 50%;
 }
-video{
+.video{
 	height: 100vh;
 	width: 100vw;
 	justify-content:center;
 	align-items:center;
 }
+	video#bgvid {
+	position: fixed; right: 0; bottom: 0;
+	min-width: 100%; min-height: 100%;
+	width: auto; height: auto; z-index: -100;
+	background: #000000;
+	background-size: cover;
+	}
 
 .container4{
 	padding-bottom: 2em;
