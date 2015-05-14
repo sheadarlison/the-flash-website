@@ -85,12 +85,12 @@ video::-webkit-media-controls-enclosure {
 	display: -o-flex;
 	display: flex;
     justify-content:center;
-	background-color: #000000;
+	background-color: #ffffff;
 	height: 100%;
 	margin: 0px;
 }
 .social{
-	background-color: #000000;
+	background-color: #ffffff;
 	padding: 0.2em;
 
 }
@@ -105,7 +105,7 @@ video::-webkit-media-controls-enclosure {
 	align-items:center;
 }
 	video#bgvid {	
-	background: #000000;
+	background: #ffffff;
 	background-size: cover;
 	}
 
