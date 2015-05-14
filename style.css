@@ -8,22 +8,6 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 body {
 	font-family: 'Oxygen', sans-serif;
   font-weight: 300;
-}
-.nav-container{
-	width: 100vw;
-	height: 20vh;
-	display: flex;
-	display: -webkit-flex;
-	margin-bottom: 5vh;
-	margin-top: 5vh;
-}
-.nav{
-	display: flex;
-	display: -webkit-flex;
-	justify-content:center;
-	align-items:center;
-	width: 100vw;
-	height: 20vh;
 
 }
 h1, h2 {
@@ -32,6 +16,16 @@ h1, h2 {
 	text-transform: uppercase;
 	color: #000000;
 	text-align: center;
+}
+.image-fade {
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
+  opacity: 0;
+-webkit-transition: all 3s ease;
+  -moz-transition: all 3s ease;
+  -ms-transition: all 3s ease;
+  -o-transition: all 3s ease;
+  transition: all 3s ease;
 }
 
 .header {
