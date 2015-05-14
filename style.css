@@ -31,6 +31,15 @@ h1, h2 {
 	text-align: center;
 }
 .mejs-controls {display: none !important;}
+::-webkit-media-controls {
+  display:none !important;
+}
+video::-webkit-media-controls {
+  display:none !important;
+}
+video::-webkit-media-controls-enclosure {
+  display:none !important;
+}
 
 .header {
 	display: flex;
