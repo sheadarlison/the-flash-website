@@ -33,18 +33,7 @@ h1, h2 {
 	color: #000000;
 	text-align: center;
 }
-/*
-.mejs-controls {display: none !important;}
-::-webkit-media-controls {
-  display:none !important;
-}
-video::-webkit-media-controls {
-  display:none !important;
-}
-video::-webkit-media-controls-enclosure {
-  display:none !important;
-}
-*/
+
 .header {
 	display: flex;
 	display: -webkit-flex;
@@ -115,7 +104,7 @@ video::-webkit-media-controls-enclosure {
 	background-size: cover;
 	height: 100vh;
 	width: 100vw;
-	  object-fit: cover !important;
+	object-fit: fill !important;
 	}
 
 .container4{
