@@ -11,7 +11,7 @@ body {
 }
 .nav-container{
 	width: 100vw;
-	height: 10vh;
+	height: 20vh;
 	display: flex;
 	display: -webkit-flex;
 }
@@ -107,6 +107,8 @@ video::-webkit-media-controls-enclosure {
 	video#bgvid {	
 	background: #ffffff;
 	background-size: cover;
+	height: 100vh;
+	width: 100vw;
 	}
 
 .container4{
