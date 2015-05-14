@@ -34,7 +34,6 @@ h1, h2 {
 	display: flex;
 	display: -webkit-flex;
 	height: 100vh;
-	background: url(images/background.jpg);
 	background-size: cover;
 }
 
@@ -95,7 +94,8 @@ h1, h2 {
 	justify-content:center;
 	align-items:center;
 }
-	video#bgvid {	
+	video#bgvid {
+	z-index: -10;	
 	background: #ffffff;
 	background-size: cover;
 	height: 100vh;
