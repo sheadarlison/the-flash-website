@@ -23,6 +23,7 @@ body {
 	width: 100vw;
 	height: 20vh;
 	padding-bottom: 5vh;
+	padding-top: 5vh;
 }
 h1, h2 {
 	font-weight: 300;
