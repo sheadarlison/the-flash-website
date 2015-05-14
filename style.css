@@ -59,6 +59,7 @@ video::-webkit-media-controls-enclosure {
 }
 
 .container2{
+	padding-top: 5vh;
 	display: flex;
 	display: -webkit-flex;
 	height: 100%;
